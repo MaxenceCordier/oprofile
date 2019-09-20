@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+// https://developer.mozilla.org/fr/docs/Web/CSS/box-sizing
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $font-familly, $font-familly-fallback;
+    color: $text-color;
+}
+
+a {
+    text-decoration: none;
+    color: $text-color;
+}
+
+body {
+    background-color: $main-color;
+}

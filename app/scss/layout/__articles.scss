@@ -1,0 +1,120 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+
+    > * {
+        padding: 70px 0 70px 0;
+    }
+
+    &__1 {
+        position: relative;
+        background-color: rgba($color-1, $alpha: .5);
+
+        &:after {
+            content: "";
+            background-image: url('https://source.unsplash.com/featured/?pizza');
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;  
+        }
+    }
+
+    &__2 {
+        position: relative;
+        background-color: rgba($color-2, $alpha: .5);
+
+        &:after {
+            content: "";
+            background-image: url('https://source.unsplash.com/featured/?random');
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;  
+        }
+    }
+
+    &__3 {
+        position: relative;
+        background-color: rgba($color-3, $alpha: .5);
+
+        &:after {
+            content: "";
+            background-image: url('https://source.unsplash.com/featured/?lasagna');
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;  
+        }
+    }
+
+    &__4 {
+        position: relative;
+        background-color: rgba($color-4, $alpha: .5);
+
+        &:after {
+            content: "";
+            background-image: url('https://source.unsplash.com/featured/?potato');
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;  
+        }
+    }
+
+    &__5 {
+        position: relative;
+        background-color: transparent;
+
+        &:after {
+            content: "";
+            background-image: url('https://source.unsplash.com/featured/?salad');
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;  
+        }
+    }
+
+    &__6 {
+        position: relative;
+        background-color: rgba($color-5, $alpha: .5);
+
+        &:after {
+            content: "";
+            background-image: url('https://source.unsplash.com/featured/?ninja');
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;  
+        }
+    }
+
+    h1 {
+        width: 90%;
+        font-weight: 700;
+        font-size: 1.5rem;
+        border-bottom: 3px solid;
+        margin:0 0 20px 20px;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-weight: 700;
+        margin-left:1em;
+        padding-right: 2em;
+    }
+
+}

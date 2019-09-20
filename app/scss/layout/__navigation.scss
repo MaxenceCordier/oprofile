@@ -1,0 +1,36 @@
+.navigation{
+
+    display: flex;
+    background-color: $alt-color;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+
+    &__logo {
+
+        a {
+            text-transform: uppercase;
+            font-size: 1rem;
+            font-weight: 700;
+            margin-left: 20px;
+            letter-spacing: -1px;
+        }
+    } 
+
+    &__social {
+
+        a {
+            margin-left: .5em;
+        }
+    }  
+    
+    &__bars {
+        
+        &__burger {
+            margin-right: 1.25em;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.profile {
+    background-image: url('https://source.unsplash.com/featured/?face');
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+
+    &__container {
+
+        margin-left: 2.5em;
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            line-height: 1.25em;
+            margin-top: 1em;
+        }
+
+        p {
+            font-weight: 700;
+            line-height: 1.25em;
+            margin-top: 1em;
+        }
+
+        button {
+            margin-top: 1.5em;
+            border: .2em solid $color-1;
+            color: $color-1;
+            border-radius: .3em;
+            background-color: hidden;
+            padding: 1em .5em;
+            background-color: transparent;
+            text-transform: uppercase;
+
+            a {
+                color: $color-1;
+                margin-right: 1em;
+                font-weight: 700;
+            }
+        }
+
+
+    }
+    
+}
